@@ -35,23 +35,21 @@ const socials = [
 
 const About = () => {
   return (
-    <section id="about" className="bg-white py-20 text-slate-950">
+    <section id="about" className="bg-white py-12 md:py-20 text-slate-950">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-start justify-between gap-12 xl:flex-row xl:items-center">
-          <div className="max-w-2xl">
+        <div className="flex flex-col items-center justify-between gap-12 xl:flex-row">
+          <div className="w-full xl:max-w-2xl text-center xl:text-left">
             <p className="mb-4 text-sm font-semibold uppercase tracking-[0.22em] text-emerald-700">
               About me
             </p>
-            <h2 className="mb-6 text-4xl font-semibold tracking-tight text-[#0A4646] sm:text-5xl lg:min-w-[680px] lg:leading-[3.55rem]">
+            <h2 className="mb-6 text-2xl md:text-4xl lg:text-5xl font-semibold tracking-tight text-[#0A4646] xl:leading-[3.55rem]">
               Software developer building clean, useful web experiences
             </h2>
-            <p className="max-w-xl text-base leading-8 text-slate-600">
-              I build responsive frontends and practical full-stack systems with React, PHP, MySQL, and
-              thoughtful UI details. I care about simple interfaces, readable code, and projects that solve
-              real problems without unnecessary noise.
+            <p className="max-w-xl mx-auto xl:mx-0 text-base leading-8 text-slate-600">
+              As a Computer Science student, I bridge academic theory with practical application to build clean, impactful web experiences. I have worked with HTML, CSS, JavaScript, React, and PHP, and I am currently expanding my skills in Python and PostgreSQL. I enjoy building practical projects and improving my skills every day as I work toward becoming a full-stack developer focused on solving real-world problems through technology.
             </p>
 
-            <ul className="my-10 flex flex-wrap items-center gap-x-5 gap-y-4">
+            <ul className="my-10 flex flex-wrap justify-center xl:justify-start items-center gap-x-5 gap-y-4">
               {socials.map((social) => (
                 <li key={social.name}>
                   <a
