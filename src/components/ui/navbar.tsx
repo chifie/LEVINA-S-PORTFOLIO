@@ -31,7 +31,9 @@ const Navbar = () => {
   return (
     <nav className="bg-[#0A4646] text-white p-4 sticky top-0 z-20 shadow-md">
       <div className="container mx-auto flex flex-wrap justify-between items-center">
-        <div className="text-xl font-bold ">Chifie dev</div>
+        <div className="text-xl font-bold tracking-tight">
+          dev <span className="text-emerald-400">chifie</span>
+        </div>
         
         {/* Mobile Toggle Button */}
         <button 
