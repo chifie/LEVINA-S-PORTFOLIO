@@ -5,7 +5,7 @@ import Home from './components/home/home'
 import Contact from './components/home/contact';
 import Skills from './components/home/skills';
 import Projects from './components/home/projects';
-import SiteSearch from './components/home/site-search';
+
 import './App.css'
 
 function App() {
@@ -13,7 +13,6 @@ function App() {
     <div className="min-h-screen flex flex-col scroll-smooth">
       <Navbar />
       <Home />
-      <SiteSearch />
       <About />
       <Skills />
       <Projects />
